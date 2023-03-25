@@ -1,14 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <meta charset="utf-8"> 
-   <title>ADVENTURE生活历险</title>
-   <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
-   <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-   <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-<nav class="navbar navbar-inverse">
-</nav>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>宋震涛的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">关于我</a></li>
+          <li><a href="#projects">项目展示</a></li>
+          <li><a href="#contact">联系我</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h1>关于我</h1>
+        <p>这里可以写一些关于你的介绍和背景。</p>
+      </section>
+
+      <section id="projects">
+        <h1>项目展示</h1>
+        <ul>
+          <li>
+            <h2>项目名称</h2>
+            <p>项目描述</p>
+            <a href="#">查看详情</a>
+          </li>
+          <li>
+            <h2>项目名称</h2>
+            <p>项目描述</p>
+            <a href="#">查看详情</a>
+          </li>
+          <li>
+            <h2>项目名称</h2>
+            <p>项目描述</p>
+            <a href="#">查看详情</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h1>联系我</h1>
+        <form>
+          <label for="name">姓名：</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">电子邮件：</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">留言：</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">发送留言</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>版权所有 © 2023 宋震涛</p>
+    </footer>
+  </body>
 </html>
